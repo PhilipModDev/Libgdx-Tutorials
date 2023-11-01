@@ -8,6 +8,6 @@ Libgdx Tutorials will also aim to simplify documentation for new game developers
 If you want to follow the YouTube tutorials series that will cover some topics found in this
 repository.
 
-<a href = "https://www.youtube.com/watch?v=p2lUdy68s_M&list=PLLwCf-qdpyEnB_FO_1HkUFh7smwGNjAaC">
+<a href = "https://www.youtube.com/watch?v=p2lUdy68s_M&list=PLLwCf-qdpyEnB_FO_1HkUFh7smwGNjAaC"> LinK</a>
 
 
