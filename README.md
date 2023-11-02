@@ -4,6 +4,7 @@ Libgdx tutorials explains a run down of the framework filled with example code f
 
 Libgdx Tutorials will also aim to simplify documentation for new game developers or from switching to a new framework. With Libgdx you can create applications from the ground up using OpenGL ES as well with its library tools. 
 
+
 If you want to follow the YouTube tutorials series that will cover some topics found in this
 repository <a href = "https://www.youtube.com/watch?v=p2lUdy68s_M&list=PLLwCf-qdpyEnB_FO_1HkUFh7smwGNjAaC">click here.</a>
 
