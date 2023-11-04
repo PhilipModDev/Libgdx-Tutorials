@@ -12,19 +12,21 @@ public class TutorialGame extends ApplicationAdapter {
 
 	public Texture sandTexture;
 	public SpriteBatch spriteBatch;
-    public Sprite textureSprite;
+        public Sprite textureSprite;
 
 	@Override
 	public void create () {
+		//Creates a new instance of the image for rendering.
 		spriteBatch = new SpriteBatch();
-        sandTexture = new Texture(Gdx.files.internal("sand.png"));
+                sandTexture = new Texture(Gdx.files.internal("sand.png"));
 		textureSprite = new Sprite(sandTexture);
 		textureSprite.setBounds(0,0,200,200);
 	}
 
 	@Override
 	public void render () {
-     Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+	 //Clears the color buffer for OpenGL.
+         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
 	 spriteBatch.begin();
 	 textureSprite.draw(spriteBatch);
@@ -33,12 +35,14 @@ public class TutorialGame extends ApplicationAdapter {
 	
 	@Override
 	public void dispose () {
-       sandTexture.dispose();
+	//Disposes the resources.
+            sandTexture.dispose();
 	   spriteBatch.dispose();
 	}
 
 	@Override
 	public void resize(int width, int height) {
+		//Sets the resize of the texture image.
        spriteBatch.getProjectionMatrix().setToOrtho2D(0,0,width,height);
 	}
 }
