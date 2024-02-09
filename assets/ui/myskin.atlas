@@ -1,0 +1,23 @@
+
+myskin.png
+size: 64, 64
+format: RGBA8888
+repeat: none
+button_hover
+  rotate: false
+  xy: 1, 1
+  size: 34, 18
+  split: 1, 1, 5, 2
+  pad: 4, 4, 8, 5
+  orig: 34, 18
+  offset: 0, 0
+  index: -1
+start_button
+  rotate: false
+  xy: 1, 21
+  size: 34, 13
+  split: 1, 1, 1, 1
+  pad: 4, 4, 4, 4
+  orig: 34, 13
+  offset: 0, 0
+  index: -1
