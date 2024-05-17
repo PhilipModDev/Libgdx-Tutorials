@@ -1,0 +1,23 @@
+
+buttonStyle.png
+size: 64, 32
+format: RGBA8888
+repeat: none
+button
+  rotate: false
+  xy: 1, 20
+  size: 32, 11
+  split: 0, 0, 0, 0
+  pad: 3, 3, 3, 3
+  orig: 32, 11
+  offset: 0, 0
+  index: -1
+button_down
+  rotate: false
+  xy: 1, 3
+  size: 32, 15
+  split: 0, 0, 4, 0
+  pad: 3, 3, 7, 3
+  orig: 32, 15
+  offset: 0, 0
+  index: -1
