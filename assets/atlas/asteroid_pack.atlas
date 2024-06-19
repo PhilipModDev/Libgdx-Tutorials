@@ -1,0 +1,7 @@
+asteroid_pack.png
+size:128,64
+repeat:none
+c_type_asteroid
+bounds:1,1,41,38
+s_type_asteroid
+bounds:43,8,33,31

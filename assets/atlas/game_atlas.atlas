@@ -1,0 +1,9 @@
+game_atlas.png
+size:64,32
+repeat:none
+arrow
+bounds:38,2,16,16
+heart
+bounds:2,2,16,16
+steel_sword
+bounds:20,2,16,16
