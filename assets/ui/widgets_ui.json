@@ -1,0 +1,91 @@
+{
+"com.badlogic.gdx.graphics.g2d.BitmapFont": {
+	"my_font": {
+		"file": "my_font.fnt",
+		"scaledSize": -1,
+		"markupEnabled": false,
+		"flip": false
+	}
+},
+"com.badlogic.gdx.graphics.Color": {
+	"RGBA_0_0_0_255": {
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 1
+	},
+	"RGBA_0_205_255_255": {
+		"r": 0,
+		"g": 0.8039216,
+		"b": 1,
+		"a": 1
+	},
+	"RGBA_255_255_255_255": {
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 1
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
+	"default": {
+		"checkboxOn": "checked_on",
+		"checkboxOff": "checked_off",
+		"font": "my_font",
+		"fontColor": "RGBA_0_0_0_255"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+	"default": {
+		"font": "my_font",
+		"fontColor": "RGBA_0_0_0_255",
+		"background": "label"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle": {
+	"default": {
+		"font": "my_font",
+		"fontColorSelected": "RGBA_0_205_255_255",
+		"fontColorUnselected": "RGBA_255_255_255_255",
+		"selection": "text_field_selection",
+		"down": "text_field",
+		"over": "text_field",
+		"background": "list_background"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle": {
+	"default-horizontal": {
+		"background": "progress_bar",
+		"knob": "progress",
+		"knobBefore": "progress"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle": {
+	"default": {
+		"background": "list_background"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle": {
+	"default": {
+		"font": "my_font",
+		"fontColor": "RGBA_255_255_255_255",
+		"overFontColor": "RGBA_0_205_255_255",
+		"background": "label",
+		"scrollStyle": "default",
+		"listStyle": "default"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle": {
+	"default": {
+		"font": "my_font",
+		"fontColor": "RGBA_0_0_0_255",
+		"background": "text_field",
+		"focusedBackground": "text_field_selection"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
+	"default": {
+		"label": "default"
+	}
+}
+}
