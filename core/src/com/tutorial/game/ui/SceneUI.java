@@ -26,17 +26,20 @@ public class SceneUI extends ApplicationAdapter {
         Table table = new Table();
         table.setFillParent(true);
         stage.addActor(table);
-        //Creates image button.
-        ImageButton imageButton = new ImageButton(skin);
-        table.add(imageButton).expand().center().width(532).height(532);
-        table.row();
-        //Creates normal button.
+
         Button button = new Button(skin);
         table.add(button).expand().center().width(300).height(100);
-        //Creates text button.
+
         TextButton textButton = new TextButton("Play",skin);
         table.add(textButton).expand().center().width(300).height(100);
 
+        ImageButton imageButton = new ImageButton(skin);
+        table.add(imageButton).expand().center().width(532).height(532);
+
+        ButtonGroup<Button> group = new ButtonGroup<>();
+        group.add(button);
+        group.add(imageButton);
+        group.add(textButton);
     }
 
     @Override
