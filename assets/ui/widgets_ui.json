@@ -27,6 +27,13 @@
 		"a": 1
 	}
 },
+"com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+	"default": {
+		"up": "wood_button",
+		"down": "wood_button_down",
+		"over": "wood_button_hover"
+	}
+},
 "com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
 	"default": {
 		"checkboxOn": "checked_on",
@@ -40,6 +47,9 @@
 		"font": "my_font",
 		"fontColor": "RGBA_0_0_0_255",
 		"background": "label"
+	},
+	"seconListStyle": {
+		"font": "my_font"
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle": {
@@ -62,7 +72,8 @@
 },
 "com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle": {
 	"default": {
-		"background": "list_background"
+		"background": "list_background",
+		"vScrollKnob": "scroll_knob_v"
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle": {
@@ -73,6 +84,19 @@
 		"background": "label",
 		"scrollStyle": "default",
 		"listStyle": "default"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle": {
+	"default-horizontal": {
+		"handle": "split_knob"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+	"default": {
+		"font": "my_font",
+		"up": "wood_button",
+		"down": "wood_button_down",
+		"over": "wood_button_hover"
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle": {
@@ -86,6 +110,12 @@
 "com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
 	"default": {
 		"label": "default"
+	}
+},
+"com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle": {
+	"default": {
+		"plus": "plus",
+		"minus": "minus"
 	}
 }
 }
