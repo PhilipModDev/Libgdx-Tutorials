@@ -9,7 +9,7 @@ import com.badlogic.gdx.utils.Pool;
 
 public class RedBall implements Disposable, Pool.Poolable {
 
-    private Sprite sprite;
+    private final Sprite sprite;
     private final Texture texture;
     public boolean alive;
     public Vector2 direction = new Vector2();
