@@ -2,6 +2,7 @@ package com.tutorial.game;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
+import com.tutorial.game.MemoryManagement.ExampleObjectPool;
 import com.tutorial.game.ui.ExampleLayoutWidgets;
 import com.tutorial.game.ui.WidgetsExample;
 
@@ -20,7 +21,7 @@ public class DesktopLauncher {
 		config.setForegroundFPS(60);
 		config.setWindowedMode(1080,720);
 		config.setTitle("Tutorial Game");
-		new Lwjgl3Application(new ExampleLayoutWidgets(), config);
+		new Lwjgl3Application(new ExampleObjectPool(), config);
 	}
 
 	private static void readConsole(){
